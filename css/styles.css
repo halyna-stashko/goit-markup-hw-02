@@ -32,6 +32,21 @@ li {
     list-style: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Логотип */
 .logo {
     font-family: 'Raleway', sans-serif;
     color: var(--accent-color);
@@ -42,6 +57,10 @@ li {
 }
 .logo-header {
     color: var(--header-logo-color);
+}
+
+.logo-footer {
+    color: var(--primary-white-color);
 }
 
 /* Навігація по сайту */
@@ -101,3 +120,53 @@ color: var(--accent-color);
     color: var(--primary-white-color);
     border-radius: 4px;
 }
+
+/* Переваги співпраці */
+.advantages-title {
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color)
+}
+
+.advantages-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+/* Чим ми займаємося */
+
+.title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/* Наша команда */
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.team-prof {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+/* Футер */
+
