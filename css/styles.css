@@ -9,10 +9,11 @@
     --accent-color: #2196F3;
     --secondary-text-color: #757575;
     --primary-white-color: #ffffff;
-    --bg-color: #F5F5F5;
+    --bg-color: #ffffff;
     --hero-bg-color: #2F303A;
     --header-logo-color: #000000;
     --contact-footer-color: rgba(255, 255, 255, 0.6);
+    --button-bg-color: #F5F4FA;
 }
 
 body {
@@ -21,6 +22,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
+    color: var(--primary-text-color);
 }
 
 a {
@@ -77,7 +79,7 @@ li {
 color: var(--accent-color);
 }
 
-/* Контакти хедер */
+/* Контакти */
 
 .contact-header {
     line-height: 1.14;
@@ -87,6 +89,24 @@ color: var(--accent-color);
 
 .contact-header:hover,
 .contact-header:focus {
+    color: var(--accent-color);
+}
+
+.contact-footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+}
+
+.contact-footer.item {
+    color: var(--contact-footer-color);
+}
+
+.contact-footer:hover,
+.contact-footer:focus {
     color: var(--accent-color);
 }
 
@@ -124,10 +144,9 @@ color: var(--accent-color);
 /* Переваги співпраці */
 .advantages-title {
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-text-color)
 }
 
 .advantages-text {
@@ -145,7 +164,6 @@ color: var(--accent-color);
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
 }
 
 /* Наша команда */
@@ -156,7 +174,6 @@ color: var(--accent-color);
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
 }
 
 .team-prof {
@@ -170,3 +187,42 @@ color: var(--accent-color);
 
 /* Футер */
 
+.footer {
+    background-color: var(--hero-bg-color);
+}
+
+/* Реалізовані проєкти */
+
+.button {
+    border: none;
+    border-radius: 4px;
+    background-color: var(--button-bg-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.projects-name {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
