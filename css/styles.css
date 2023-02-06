@@ -208,6 +208,7 @@ color: var(--accent-color);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    cursor: pointer;
 }
 
 .button:hover,
